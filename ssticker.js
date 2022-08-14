@@ -22,7 +22,7 @@ const {
 const Lang = getString('converters');
 let w = MODE == 'public' ? false : true
 Module({
-    pattern: 'sticker ?(.*)',
+    pattern: 's ?(.*)',
     use: 'edit',
     fromMe: w,
     desc: Lang.STICKER_DESC
